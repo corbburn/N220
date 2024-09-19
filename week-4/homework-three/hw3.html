@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Homework 3</title>
+    <script src="hw3.js" defer></script>
+    <style>
+      div {
+        background-color: rgba(218, 218, 218, 0.781);
+        padding: 30px;
+        margin: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <label>Principle</label>
+      <input type="number" id="principle" /><br />
+      <label>Interest Rate</label>
+      <input type="number" id="rate" /><br />
+      <label>Time</label>
+      <input type="number" id="time" /><br />
+      <input
+        type="button"
+        id="interest"
+        onclick="calcInterest()"
+        value="Calculate"
+      />
+    </div>
+    <div>
+      <h1>Your Results</h1>
+      <p id="result"></p>
+    </div>
+  </body>
+</html>
