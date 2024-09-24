@@ -39,5 +39,5 @@ console.log(updatePTag.querySelector("#delete"));
 console.log(String(100), length, 100);
 console.log(String(100).includes("2"), 100);
 console.log("100".replace("0", "2"), 100);
-console.log("1,2,3,4".split(","));
+console.log("1,2,3,4").split(",");
 console.log((123).trim());
