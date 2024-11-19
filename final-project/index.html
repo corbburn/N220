@@ -5,7 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Final Project</title>
   </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      height: 100%;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+      margin-bottom: 16px;
+    }
+
+    body > h1 {
+      background-color: #f08080;
+      padding: 16px;
+    }
+
+    body {
+      background-color: #90ee9075;
+    }
+
+    body > section {
+      padding: 0 12px;
+    }
+
+    .task {
+      border: 2px solid black;
+      border-radius: 5px;
+      width: 300px;
+      padding: 8px;
+      margin: 4px 0;
+    }
+
+    button {
+      padding: 4px;
+      background-color: #4f414f;
+      color: white;
+    }
+
+    button.red {
+      background-color: #811d1d;
+    }
+
+    button.blue {
+      background-color: #8f91d6;
+    }
+
+    .done h4 {
+      text-decoration: line-through;
+    }
+  </style>
   <body>
-    <h1>Hello</h1>
+    <h1>Task Manager</h1>
+    <div id="login" style="padding-left: 10px">
+      <p style="margin-bottom: 0px">Username:</p>
+      <input type="text" name="username" id="username" />
+      <br />
+      <br />
+      <p style="margin-bottom: 0px">Password:</p>
+      <input type="text" name="password" id="password" />
+      <br />
+      <br />
+      <button onclick="validateLogin()">Login</button>
+    </div>
   </body>
+  <script src="finalproject.js"></script>
 </html>

@@ -20,3 +20,5 @@ https://corbburn.github.io/N220/final-project
     - password contains no numbers
 - Events:
   - on login button click check login
+
+**Dashboard**
