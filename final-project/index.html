@@ -68,7 +68,8 @@
   </style>
   <body>
     <h1>Task Manager</h1>
-    <div id="main" style="padding-left: 10px">
+
+    <div id="login" style="padding-left: 10px">
       <p style="margin-bottom: 0px">Username:</p>
       <input type="text" name="username" id="username" />
       <br />
@@ -79,6 +80,18 @@
       <br />
       <button onclick="validateLogin()">Login</button>
     </div>
+
+    <div id="main" style="padding-left: 10px; display: none">
+      <h3 id="welcome">Welcome, !</h3>
+      <button
+        style="position: absolute; top: 80px; right: 10px"
+        onclick="logout()"
+      >
+        Logout
+      </button>
+      <button onclick="addTask()">Add Task</button>
+    </div>
+    <div id="tasks" style="display: none; padding: 10px"></div>
   </body>
   <script src="finalproject.js"></script>
 </html>
