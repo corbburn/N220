@@ -37,13 +37,13 @@ https://corbburn.github.io/N220/final-project
 - DOM references: Task inputs
 - Logic:
   - Button for users to add new tasks
-  - Box to mark that a task is completed
+  - Button to mark that a task is completed
   - Button for users to remove tasks
-  - Edit button for users
-    - Lets users change text for task
-    - Allows users to assign the task an additional property
+  - Urgent button for users
+    - Displays "URGENT!" next to the task
+    - Can be toggled on and off
 - Events:
   - on task button click adds a new task to list
   - on complete button click will complete the task
   - on delete button click will delete the task from the list
-  - on edit button click will allow for users to edit a task
+  - on urgent button click will mark the task as urgent
